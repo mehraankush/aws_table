@@ -21,9 +21,7 @@ const Preferences = ({ setPreferences, preferences, columnDispokayProps ,disable
                     title: "Page size",
                     options:PAGE_SIZE_OPTIONS
                 }}
-                wrapLinesPreference={{}}
-                stripedRowsPreference={{}}
-                contentDensityPreference={{}}
+               
                 contentDisplayPreference={{
                     options: columnDispokayProps.map((col) => {
                         return {
